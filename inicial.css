@@ -26,7 +26,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 200%;
+    font-size: 100%;
     background-color: #263d38;
     color: white;
     width: 100%;
