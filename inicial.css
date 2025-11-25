@@ -8,6 +8,17 @@ body{
     height: 100vh;
 }
 
+.cabecalho{
+    display: flex;
+    background-color: #263d38;
+    height: 80px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+
+
 .nav{
     flex: 1;
     display: flex;
