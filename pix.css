@@ -8,6 +8,16 @@ body{
     height: 100vh;
 }
 
+.cabecalho{
+    display: flex;
+    background-color: #263d38;
+    height: 80px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-left: 90%;
+}
+
 .nav{
     flex: 1;
     display: flex;
@@ -26,26 +36,39 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 200%;
+    font-size: 100%;
     background-color: #263d38;
     color: white;
     width: 100%;
     border: none;
 }
 
-.pix{
-    flex:4;
-    display: flex;
-}
 
 .headerr {
+    flex:4;
     display: flex;
     background-color: white;
     color: #263d38;
     font-family: 'Times New Roman', Times, serif;
     flex-direction: column;
     margin: 2%;
-    
+}
+
+.headerr p {
+    font-size: 20px;
+}
+
+.headerr button {
+    width: 120px;
+    height: 40px;
+    background-color:#263d38;
+    color: white;
+}
+
+.sections1 {
+    border-style: solid;
+    border-color: #3f776b;
+    padding-left: 15px;
 }
 
 .perfil{
@@ -60,4 +83,9 @@ body{
     color: white;
     border-color: #3f776b;
 }
+
+.color {
+    background-color: aquamarine;
+}
+
 
