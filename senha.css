@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.senha{
+    display: flex;
+    height: 100vh;
+}
+
+.leftside{
+    flex: 1;
+    display: flex;
+    background-color:whitesmoke;
+    color: #263d38;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 150%;
+
+}
+
+.rightside{
+    flex: 1;
+    display: flex;
+    background-color: #263d38;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links{
+    text-align: center;
+    font-size: 70%;
+}
+
+.links a{
+    color: #263d38;
+}
+
+.leftside p {
+    font-size: 65%;
+    margin-bottom: 1px;
+}
+
+.leftside h1 {
+    margin-bottom: 1px;
+}
